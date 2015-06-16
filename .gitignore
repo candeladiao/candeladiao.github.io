@@ -1,1 +1,4 @@
-.bak
+_site
+.DS_Store
+nbproject
+.sass-cache
