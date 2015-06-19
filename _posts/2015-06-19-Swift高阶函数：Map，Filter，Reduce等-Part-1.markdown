@@ -43,7 +43,7 @@ archive: false
 	{"($0)€"}就是一个闭包，它把金额转成字符并在尾部添加一个字符€带命名参数：
 	stringsArray = moneyArray.map({money in "(money)€"}) 
 	如果看不明白，那可能是你不熟悉字符串插值，下而截取出文档的小部分内容：
-字符串插值是一种构造新字符串的方法，它把常量，变量和表达式组合构造出一个新字符串，每一个要插入字符串的项都需要以反斜杠()开头并包裹在一对圆括号里。
+>字符串插值是一种构造新字符串的方法，它把常量，变量和表达式组合构造出一个新字符串，每一个要插入字符串的项都需要以反斜杠()开头并包裹在一对圆括号里。
 [Swift String Apple Reference](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/StringsAndCharacters.html#//apple_ref/doc/uid/TP40014097-CH7-XID_368)
 ##Filter
 filter用于选择数组元素中满足某种条件的元素
