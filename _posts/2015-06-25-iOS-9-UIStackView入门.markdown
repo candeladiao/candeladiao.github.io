@@ -5,11 +5,11 @@ date: 2015-06-25
 comments: true
 archive: false
 ---
-
 同iOS以往每个迭代一样，iOS 9带来了很多新特性。UIKit框架每个版本都在改变，而在iOS 9比较特别的是UIStackView，它将从根本上改变开发者在iOS上创建用户界面的方式。本文将带你学习怎样使用UIStackView创建用户界面。
+
 本文假定你已经熟悉Auto Layout基础。不熟悉的可以先看看[Auto Layout介绍](http://code.tutsplus.com/tutorials/getting-started-with-auto-layout-in-xcode-5--cms-21016)。要理解Stack View为何如此有用及它是如何起作用的，需要首先对Auto Layout有深入了解。
 ##1. 实例预览我们将使用UIStackView模拟一个app评分提示。用户可以增加星星或者移除星星来打分。完成后看起来是这样。
-![预览](https://github.com/candeladiao/candeladiao.github.io/blob/master/assets/images/2015-06-25/00.png?raw=true)
+<img src="/assets/images/2015-06-25/00.png" width="630" align=center />
 先从[GitHub](https://github.com/tutsplus/iOS-StackViewStarterProject)下载样例工程并打开。你能在Main.Storyboard里看到有两个Stack View
 ![预览](https://github.com/candeladiao/candeladiao.github.io/blob/master/assets/images/2015-06-25/01.png?raw=true)
 我们将使用这两个Stack View来布局界面。开始编码前，让我们先看一下Stack View是如何工作的。##2. UIStackView 概述Stack View的核心便是方便垂直或水平排布多个subview，如果你做过Android开发，那它和[LinearLayout](http://developer.android.com/guide/topics/ui/layout/linear.html) 控件非常相似。
