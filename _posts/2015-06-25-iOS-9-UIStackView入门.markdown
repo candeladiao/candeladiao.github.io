@@ -9,10 +9,13 @@ archive: false
 
 本文假定你已经熟悉Auto Layout基础。不熟悉的可以先看看[Auto Layout介绍](http://code.tutsplus.com/tutorials/getting-started-with-auto-layout-in-xcode-5--cms-21016)。要理解Stack View为何如此有用及它是如何起作用的，需要首先对Auto Layout有深入了解。
 ##1. 实例预览我们将使用UIStackView模拟一个app评分提示。用户可以增加星星或者移除星星来打分。完成后看起来是这样。
-<img src="/assets/images/2015-06-25/00.png" width="630" align=center />
-先从[GitHub](https://github.com/tutsplus/iOS-StackViewStarterProject)下载样例工程并打开。你能在Main.Storyboard里看到有两个Stack View
-<img src="/assets/images/2015-06-25/01.png" width="630" align=center/>
-我们将使用这两个Stack View来布局界面。开始编码前，让我们先看一下Stack View是如何工作的。##2. UIStackView 概述Stack View的核心便是方便垂直或水平排布多个subview，如果你做过Android开发，那它和[LinearLayout](http://developer.android.com/guide/topics/ui/layout/linear.html) 控件非常相似。
+  
+  <img src="/assets/images/2015-06-25/00.png" width="630" align=center />
+  
+  先从[GitHub](https://github.com/tutsplus/iOS-StackViewStarterProject)下载样例工程并打开。你能在Main.Storyboard里看到有两个Stack View
+  
+  <img src="/assets/images/2015-06-25/01.png" width="630" align=center/>
+ 我们将使用这两个Stack View来布局界面。开始编码前，让我们先看一下Stack View是如何工作的。##2. UIStackView 概述Stack View的核心便是方便垂直或水平排布多个subview，如果你做过Android开发，那它和[LinearLayout](http://developer.android.com/guide/topics/ui/layout/linear.html) 控件非常相似。
 Stack View最有用的就是它会自动为每个subview创建和添加Auto Layout constraints。当然你可以控制subview的大小和位置。可以通过选项配置subview的大小、排布以及彼此间的间距。
 ###布置内容打开Main.Storyboard，选择其中一个Stack View可以查看其选项。在 **Attributes Inspector**中，注意Stack View下面列出的选择。
 <img src="/assets/images/2015-06-25/02.png" width="630" align=center/> Axis表示Stack View的subview是水平排布还是垂直排布。**Alignment**控制subview对齐方式。**Distribution**定义subview的分布方式。**Spacing** 为subview间的最小间距。
