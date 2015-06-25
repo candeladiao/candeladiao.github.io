@@ -6,6 +6,8 @@ comments: true
 archive: false
 ---
 
+本文已投稿到[CocoaChina](http://www.cocoachina.com/swift/20150619/12173.html)
+
 ##闭包介绍Swift一大特性便是使用简洁的[头等函数](https://en.wikipedia.org/wiki/First-class_function)/闭包语法代替了复杂的blocks。希望我们在Swift中不再需要像[fuckingblocksyntax](http://fuckingblocksyntax.com/)中所描述的语法。（译者注：头等函数-即可将函数当作参数传递给其它的函数，或作为其它函数的返回值，也可以将它们赋值给变量，或者将它们存储在数据结构中）。
 闭包是自包含的blocks，它可以在代码中传递使用。
 本文我们将重点介绍匿名定义的闭包（如：定义成内联且不具名）也称匿名闭包。我们能够将其作为参数传递给其它函数/方法或者将其作为返回值。闭包是[极其强大的语言特性](https://en.wikipedia.org/wiki/Church_encoding)，它能够让我们更快，更容易的编写程序，并且也更少出错。
