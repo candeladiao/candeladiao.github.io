@@ -7,7 +7,7 @@ archive: false
 ---
 Android笔记
 
-最近开始学习Android开发，下载我们Android产品最新版本源码运行时却报了空指针异常，调试发现类型为ListView的成员变量确实为空，而且也没找到通过findViewById给该成员变量赋值的代码。
+最近开始学习Android开发，下载我们Android产品最新版本源码运行时却报了java.lang.NullPointerException空指针异常，调试发现类型为ListView的成员变量确实为空，而且也没找到通过findViewById给该成员变量赋值的代码。
 
 
 <img src="/assets/images/2015-07-09/01.png" width="630" align=center/>
