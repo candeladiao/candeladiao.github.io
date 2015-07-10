@@ -77,10 +77,10 @@ Android Studio导入Eclipse工程有两种方式，具体可见[http://www.cnblo
 
 
 <div style="float:left">
-<img src="/assets/images/2015-07-10/06.png" width="200" align=center>
+<img src="/assets/images/2015-07-10/06.png" width="200" height="344" align=center>
 </div>
 <div style="float:left">
-<img src="/assets/images/2015-07-10/07.jpg" width="430" align=center>
+<img src="/assets/images/2015-07-10/07.jpg" width="430" height="344" align=center>
 </div>
 
 
