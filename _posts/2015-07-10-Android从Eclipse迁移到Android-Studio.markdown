@@ -87,7 +87,7 @@ Android Studio导入Eclipse工程有两种方式，具体可见[http://www.cnblo
 LoadLibrary出错，看来是.so文件没找到。再次打开主工程的build.gradle文件，在main里面增加jniLibs.srcDirs = ['libs']，因为我的.so文件是放在libs下面的。
 
 
-<img src="/assets/images/2015-07-10/08.png" width="200" align=center>
+<img src="/assets/images/2015-07-10/08.png" width="630" align=center>
 
 
 关于Android Studio so文件项目依赖，可移步[这里](http://zhengxiaopeng.com/2014/12/13/Android-Studio-jar%E3%80%81so%E3%80%81library%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96/)。
