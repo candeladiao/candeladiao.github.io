@@ -5,7 +5,7 @@ date: 2015-07-10
 comments: true
 archive: false
 ---
-Android笔记
+Android Studio安装及项目迁移笔记
 
 [Android Studio](https://dl.google.com/dl/android/studio/install/1.2.2.0/android-studio-bundle-141.1980579-windows.exe)发布已有一段时间，准备亲自体验一下。
 
