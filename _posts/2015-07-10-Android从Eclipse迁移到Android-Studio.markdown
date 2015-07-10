@@ -76,8 +76,12 @@ Android Studio导入Eclipse工程有两种方式，具体可见[http://www.cnblo
 等等，这是SM。
 
 
+<div style="float:left">
 <img src="/assets/images/2015-07-10/06.png" width="200" align=center>
+</div>
+<div style="float:left">
 <img src="/assets/images/2015-07-10/07.jpg" width="430" align=center>
+</div>
 
 
 LoadLibrary出错，看来是.so文件没找到。再次打开主工程的build.gradle文件，在main里面增加jniLibs.srcDirs = ['libs']，因为我的.so文件是放在libs下面的。
