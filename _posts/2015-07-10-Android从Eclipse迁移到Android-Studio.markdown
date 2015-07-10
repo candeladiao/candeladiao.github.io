@@ -46,7 +46,7 @@ Android Studio导入Eclipse工程有两种方式，具体可见[http://www.cnblo
 编译运行，模拟器却一直运行不起来。发现是因为模拟器CPU设置成了Intel Atom (x86)，但是没有下载Intel x86 Atom System Image。打开SDK Manager，Tools->Manage AVDs...->Android Virtual Devices，选择对应模拟器，点击右边Edit，可以看到模拟器CPU设置对对应版本的target，然后下载对应target的Intel x86 Atom System Image。
 
 
-<img src="/assets/images/2015-07-10/03.png" width="630" align=center>
+<img src="/assets/images/2015-07-10/03.jpg" width="630" align=center>
 
 
 解决上面问题再次编译运行，又提示类重复的错误。
@@ -77,7 +77,7 @@ Android Studio导入Eclipse工程有两种方式，具体可见[http://www.cnblo
 
 
 <img src="/assets/images/2015-07-10/06.png" width="200" align=center>
-<img src="/assets/images/2015-07-10/07.png" width="430" align=center>
+<img src="/assets/images/2015-07-10/07.jpg" width="430" align=center>
 
 
 LoadLibrary出错，看来是.so文件没找到。再次打开主工程的build.gradle文件，在main里面增加jniLibs.srcDirs = ['libs']，因为我的.so文件是放在libs下面的。
