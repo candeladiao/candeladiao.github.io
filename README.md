@@ -1,2 +1,2 @@
-![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) candeladiao - 刁攀武
+![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) candeladiao
 ==============
